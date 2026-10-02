@@ -9,3 +9,6 @@
 {"timestamp": "2019-01-01 12:16:00","customer":"customer_03","page":"product","product": "product_03"}
 {"timestamp":"2019-01-01 12:20:00","customer":"customer_03","page":"basket","product":"product_03"}
 {"timestamp":"2019-01-01 12:21:00","customer":"customer_03","page":"checkout"}
+{"timestamp":"2019-01-01 12:00:00","customer":"customer_04","page":"product","product":"product_04"}
+{"timestamp":"2019-01-01 12:02:00","customer":"customer_04","page":"basket","product":"product_04"}
+{"timestamp":"2019-01-01 12:08:00","customer":"customer_04","page":"product","product":"product_04"}

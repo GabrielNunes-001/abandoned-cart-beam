@@ -46,7 +46,13 @@ class DetectarAbandono(beam.DoFn):
             horario_limite = horario_basket + timedelta(minutes=10)
             basket_timer.set(horario_limite.timestamp())
             
-        if evento["page"] == "checkout":
+        elif evento["page"] == "product":
+            basket_timer.clear()
+            basket_state.clear()
+            customer_state.clear()
+            product_state.clear()
+            
+        elif evento["page"] == "checkout":
             basket_timer.clear()
             basket_state.clear()
             customer_state.clear()
